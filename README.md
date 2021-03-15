@@ -1,2 +1,3 @@
-# expanding-image-cards
-simple expanding image cards design with Javascript
+# Javascript Projects
+
+1.Expanding Image Card : https://expandingcardsabtahi.netlify.app/
