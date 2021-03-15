@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Practice</title>
+</head>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #1D2333;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container {
+        width: 1140px;
+        margin: auto;
+    }
+
+    .table_class {
+        background: #1D2333;
+        box-sizing: border-box;
+        padding: 20px;
+        border: 1px solid white;
+    }
+
+    .table {
+        padding-left: 9%;
+    }
+
+    tr {
+        text-align: justify;
+    }
+
+    th {
+        padding: 15px;
+    }
+
+    .heading {
+        text-align: center;
+        color: white;
+        font-size: 45px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 20px;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+
+        <div class="table">
+            <h1 class="heading">User Data (fetch Method) </h1>
+
+            <table class="table_class">
+                <tr>
+                    <th>Name</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>Website</th>
+                    <th>Company</th>
+
+                </tr>
+
+                <tbody class="tbody">
+
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+    <script>
+        fetch("https://jsonplaceholder.typicode.com/users")
+            .then(api => api.json())
+            .then(mainData => {
+                mainData.forEach(value => {
+                    var table = `
+                <tr>
+                    <td style='padding:10px';>${value.name}</td>
+                    <td style='padding:10px';>${value.username}</td>
+                    <td style='padding:10px';>${value.email}</td>
+                    <td style='padding:10px';>${value.address.street}</td>
+                    <td style='padding:10px';>${value.phone}</td>
+                    <td style='padding:10px';>${value.website}</td>
+                    <td style='padding:10px';>${value.company.name}</td>
+            
+                <tr>`;
+                    const userData = document.querySelector(".tbody");
+                    userData.insertAdjacentHTML("beforebegin", table)
+                });
+            })
+    </script>
+
+</body>
+
+</html>
