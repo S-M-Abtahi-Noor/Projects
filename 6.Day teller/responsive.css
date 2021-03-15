@@ -1,0 +1,52 @@
+@media screen and (max-width: 375px) {
+ 
+    input.userInputBox {
+        padding: 20px;
+        width: 239px;
+        font-size: 12px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    button.searchBox {
+        margin-left: 41%;
+    }
+    h3.resultText {
+        color: black;
+        background: #ffffff87;
+        padding: 11px;
+        font-size: 15px;
+        margin-left: 52px;
+        border-radius: 10px;
+        
+    }
+    .homePage span {
+        color: white;
+        position: absolute;
+        left: 19%;
+        bottom: 13px;
+        font-family: system-ui;
+    }
+    button.rulesBtn {
+        position: absolute;
+        bottom: 45px;
+        right: 36px;
+    }
+    .rulesTxt {
+        position: absolute;
+        right: 34px;
+        bottom: 46px;
+        width: 240px;
+        padding: 22px;
+        opacity: 1;
+        height: 152px;
+    }
+
+    .rulesTxt p {
+    text-align: justify;
+    color: black;
+    font-size: 9px;
+    font-family: system-ui;
+}
+
+  }
