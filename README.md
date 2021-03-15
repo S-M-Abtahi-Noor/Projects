@@ -1,5 +1,5 @@
-# Javascript Projects
-<h3>Live Demo of all projects</h3>
+
+# Live Demo of all projects
 1.Expanding Image Card : https://expandingcardsabtahi.netlify.app/  <br>
 2.Progress Steps : https://progressstepabtahi.netlify.app/ <br>
 3.Image Lightbox : https://imagelightbox.netlify.app/ <br>
