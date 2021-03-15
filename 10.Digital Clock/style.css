@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    
+    font-family:system-ui;
+
+}
+body{
+    display:flex;
+    
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:rgb(1, 1, 27);
+    
+}
+
+.digitalclock h2{
+    color:#ffffff;
+    position:relative;
+    display:block;
+    font-weight:700;
+    text-transform:uppercase;
+    margin:10px 0;
+    font-size:5vh;
+    letter-spacing:2px;
+    text-align:center;
+
+}
+
+.currenttime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.currenttime div{
+    position:relative;
+    margin:0 5px;
+    -webkit-box-reflect:below 5px linear-gradient(transparent,#0004);
+    opacity:1;
+}
+
+.currenttime div span{
+    position:relative;
+    display:block;
+    width:130px;
+    height:70px;
+    background:#52a8e9;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:4.5em;
+    box-shadow:1px 0 0 1px black;
+    z-index:10;
+    padding:20px;
+    font-family: 'Goldman', cursive;
+
+}
+
+.currenttime div span:nth-child(2){
+    font-size:1.3em;
+    font-weight:300;
+    text-transform:uppercase;
+    height:30px;
+    background:rgb(31, 66, 110);
+
+}
+.currenttime div:last-child span{
+    background:#ff006a;
+}
+.currenttime div:last-child span:nth-child(2){
+    background:#ec0062;
+}
