@@ -14,4 +14,4 @@
 11.Blurry Loading : <a href="https://bluryloading.netlify.app/"target="_blank">Live Demo</a>
 </ol>
 
-<a href=""target="_blank">Live Demo</a>
+<!--<a href=""target="_blank">Live Demo</a>-->
