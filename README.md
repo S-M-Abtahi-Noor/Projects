@@ -12,6 +12,7 @@
 9.Realtime User Login + Firebase : <a href="https://realtimeloginform.netlify.app/"target="_blank">Live Demo</a>  <br>
 10.Digital Clock : <a href="https://digitalclockbyabtahinoor.netlify.app/"target="_blank">Live Demo</a> <br>
 11.Blurry Loading : <a href="https://bluryloading.netlify.app/"target="_blank">Live Demo</a>
+12.Hidden Search Widget : <a href="https://hiddensearchwidgetbyabtahi.netlify.app/"target="_blank">Live Demo</a>
 </ol>
 
 <!--<a href=""target="_blank">Live Demo</a>-->
