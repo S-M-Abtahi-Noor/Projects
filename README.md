@@ -2,7 +2,7 @@
 # Live Demo of all projects
 
 <ol type="1">
-1.Expanding Image Card :  <a href="https://expandingcardsabtahi.netlify.app/"target="_blank">Live Demo</a>  <br>
+1.Expanding Image Card :  <a href="https://expanding-image-cards.vercel.app/"target="_blank">Live Demo</a>  <br>
 2.Progress Steps : <a href="https://progressstepabtahi.netlify.app/"target="_blank">Live Demo</a>  <br>
 3.Image Lightbox : <a href="https://imagelightbox.netlify.app/"target="_blank">Live Demo</a> <br>
 5.Covid-19 Live Update : <a href="https://covidliveupdatebyabtahi.netlify.app/ "target="_blank">Live Demo</a> <br>
